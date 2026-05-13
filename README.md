@@ -37,6 +37,14 @@ PWA means **Progressive Web App**. It is a normal website that can include app-l
 
 This portfolio keeps everything simple with plain HTML, CSS, and JavaScript. No frameworks or build tools are needed.
 
+This PWA is configured for the GitHub Pages project URL:
+
+```text
+https://ezz10099.github.io/mostafa-web-portfolio/
+```
+
+Because this is a project site, the manifest uses `/mostafa-web-portfolio/` as its `start_url` and `scope`.
+
 ### How to Test the PWA
 
 1. Serve the folder with a local web server, for example:
