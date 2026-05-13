@@ -18,3 +18,11 @@ navLinks.addEventListener('click', (event) => {
     navToggle.setAttribute('aria-expanded', 'false');
   }
 });
+
+
+// Register the service worker so the site can load offline after the first visit.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js');
+  });
+}

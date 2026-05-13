@@ -1,0 +1,10 @@
+{
+  "name": "Mostafa Web Portfolio",
+  "short_name": "Mostafa",
+  "description": "A beginner-friendly portfolio website built with plain HTML, CSS, and JavaScript.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e"
+}
